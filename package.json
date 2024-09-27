@@ -13,7 +13,8 @@
     "client:build": "NODE_OPTIONS='--max-old-space-size=4096' cd client && npm run build",
     "client:dev": "cd client && npm run dev",
     "server:build": "NODE_OPTIONS='--max-old-space-size=4096' cd server && npm run build",
-    "render-build": "npm install && npm run client:build && npm run server:build"
+    "render-build": "npm install && npm run client:build && npm run server:build",
+  "render-start": "npm run start"
   },
   "keywords": [],
   "author": "",
